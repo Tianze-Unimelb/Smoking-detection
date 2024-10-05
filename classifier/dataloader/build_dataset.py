@@ -1,0 +1,44 @@
+# -*-coding: utf-8 -*-
+"""
+# --------------------------------------------------------
+# @Author : ZTZ
+# @E-mail : 3240875022@qq.com
+# @Date   : 2023-12-8 09:11:25
+# --------------------------------------------------------
+"""
+import numpy as np
+from classifier.dataloader import parser_imagefolder
+
+
+def load_dataset(data_type,
+                 filename,
+                 transform,
+                 class_name=None,
+                 resample=False,
+                 shuffle=True,
+                 use_rgb=True,
+                 check=False,
+                 phase="train",
+                 **kwargs):
+    """
+    :param data_type:
+    :param filename:
+    :param transform:
+    :param resample:
+    :param shuffle:
+    :param check:
+    :param phase:
+    :param kwargs:
+    :return:
+    """
+    if data_type.lower() == "folder":
+        dataset = parser_imagefolder.ImageFolderDataset(filename,
+                                                        transform=transform,
+                                                        resample=resample,
+                                                        class_name=class_name,
+                                                        use_rgb=use_rgb,
+                                                        shuffle=shuffle,
+                                                        **kwargs)
+    else:
+        raise Exception("Error:data_type:{}".format(data_type))
+    return dataset
