@@ -1,0 +1,2193 @@
+INFO: build_train_loader,input_size:[224, 224]
+INFO: build_test_loader,input_size:[224, 224]
+INFO: build_model,net_type:mobilenet_v2
+INFO: build_criterion,loss_type:CrossEntropyLoss,num_classes:2
+INFO: build_optimizer
+INFO: optim_type:SGD,init_lr:0.01,weight_decay:0.0005
+INFO: build_callbacks
+INFO: ============================================================
+INFO: work_dir          :work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618
+INFO: config_file       :configs/config.yaml
+INFO: gpu_id            :[1]
+INFO: main device       :cuda:1
+INFO: num_classes       :2
+INFO: num_samples(train):23570
+INFO: mean_num(train)   :11785
+INFO: num_samples(test) :428
+INFO: mean_num(test)    :214
+INFO: loss_type         :CrossEntropyLoss
+INFO: ============================================================
+INFO: start train
+INFO: {'lr': 0.01, 'train': {'Accuracy': 42.1875, 'loss': 0.7439037561416626}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 75.1531862745098, 'loss': 0.5132713639268688}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 77.63768564356435, 'loss': 0.4791436487495309}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 79.98240894039735, 'loss': 0.43753936807840865}}
+INFO: 
+Acc:86.6822
+              precision    recall  f1-score   support
+
+  notsmoking     0.8835    0.8871    0.8853       248
+     smoking     0.8436    0.8389    0.8412       180
+
+    accuracy                         0.8668       428
+   macro avg     0.8636    0.8630    0.8633       428
+weighted avg     0.8667    0.8668    0.8668       428
+
+INFO: train epoch:000,{'Accuracy': 81.08016304347827, 'loss': 0.4166618630937908}
+INFO: test epoch:000,{'Accuracy': 86.68224306195695, 'loss': 0.3348996564745903}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_000_86.6822.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_000_86.6822.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 83.59375, 'loss': 0.314127653837204}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 86.84129901960785, 'loss': 0.30075284312753114}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 87.19832920792079, 'loss': 0.2999674558344454}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 87.54139072847683, 'loss': 0.291231069343769}}
+INFO: 
+Acc:85.2804
+              precision    recall  f1-score   support
+
+  notsmoking     0.9744    0.7661    0.8578       248
+     smoking     0.7511    0.9722    0.8475       180
+
+    accuracy                         0.8528       428
+   macro avg     0.8627    0.8692    0.8526       428
+weighted avg     0.8805    0.8528    0.8534       428
+
+INFO: train epoch:001,{'Accuracy': 87.75900135869566, 'loss': 0.28691380551975704}
+INFO: test epoch:001,{'Accuracy': 85.2803738317757, 'loss': 0.3301814403384924}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_001_85.2804.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 86.71875, 'loss': 0.31288257241249084}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 90.41053921568627, 'loss': 0.23392707606156668}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 90.47029702970298, 'loss': 0.23105562102086474}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 90.6456953642384, 'loss': 0.22748271464709416}}
+INFO: 
+Acc:89.7196
+              precision    recall  f1-score   support
+
+  notsmoking     0.9397    0.8790    0.9083       248
+     smoking     0.8469    0.9222    0.8830       180
+
+    accuracy                         0.8972       428
+   macro avg     0.8933    0.9006    0.8957       428
+weighted avg     0.9007    0.8972    0.8977       428
+
+INFO: train epoch:002,{'Accuracy': 90.6334918478261, 'loss': 0.22736327273204274}
+INFO: test epoch:002,{'Accuracy': 89.7196260256188, 'loss': 0.22029811330139637}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_002_89.7196.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_002_89.7196.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 90.625, 'loss': 0.32283973693847656}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 91.91176470588235, 'loss': 0.20441052682843863}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 92.05600247524752, 'loss': 0.19658774779279634}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 92.1719784768212, 'loss': 0.19625102383214116}}
+INFO: 
+Acc:93.4579
+              precision    recall  f1-score   support
+
+  notsmoking     0.9825    0.9032    0.9412       248
+     smoking     0.8800    0.9778    0.9263       180
+
+    accuracy                         0.9346       428
+   macro avg     0.9312    0.9405    0.9337       428
+weighted avg     0.9394    0.9346    0.9349       428
+
+INFO: train epoch:003,{'Accuracy': 92.16627038043478, 'loss': 0.1954570006498176}
+INFO: test epoch:003,{'Accuracy': 93.45794392523365, 'loss': 0.16358185280114412}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_003_93.4579.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_003_93.4579.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.53125, 'loss': 0.1258029043674469}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 93.35171568627452, 'loss': 0.17256731905189215}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 93.33230198019803, 'loss': 0.16894292742899147}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 93.37230960264901, 'loss': 0.16786020974449764}}
+INFO: 
+Acc:90.6542
+              precision    recall  f1-score   support
+
+  notsmoking     0.9483    0.8871    0.9167       248
+     smoking     0.8571    0.9333    0.8936       180
+
+    accuracy                         0.9065       428
+   macro avg     0.9027    0.9102    0.9051       428
+weighted avg     0.9099    0.9065    0.9070       428
+
+INFO: train epoch:004,{'Accuracy': 93.24898097826087, 'loss': 0.169766944428177}
+INFO: test epoch:004,{'Accuracy': 90.65420546487113, 'loss': 0.2292386069893837}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_004_90.6542.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.53125, 'loss': 0.1282082200050354}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.33210784313725, 'loss': 0.13865934188167253}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.11355198019803, 'loss': 0.14934313478003633}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.21047185430463, 'loss': 0.14803465189325887}}
+INFO: 
+Acc:90.6542
+              precision    recall  f1-score   support
+
+  notsmoking     0.9643    0.8710    0.9153       248
+     smoking     0.8431    0.9556    0.8958       180
+
+    accuracy                         0.9065       428
+   macro avg     0.9037    0.9133    0.9055       428
+weighted avg     0.9133    0.9065    0.9071       428
+
+INFO: train epoch:005,{'Accuracy': 94.140625, 'loss': 0.14833907386207063}
+INFO: test epoch:005,{'Accuracy': 90.65420560747664, 'loss': 0.20846983278170228}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_005_90.6542.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 90.625, 'loss': 0.1764330267906189}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.3125, 'loss': 0.1320807681802441}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.62407178217822, 'loss': 0.1407116300767601}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.69681291390728, 'loss': 0.13819506308002188}}
+INFO: 
+Acc:91.8224
+              precision    recall  f1-score   support
+
+  notsmoking     0.9383    0.9194    0.9287       248
+     smoking     0.8919    0.9167    0.9041       180
+
+    accuracy                         0.9182       428
+   macro avg     0.9151    0.9180    0.9164       428
+weighted avg     0.9188    0.9182    0.9184       428
+
+INFO: train epoch:006,{'Accuracy': 94.7180706521739, 'loss': 0.13665106902708826}
+INFO: test epoch:006,{'Accuracy': 91.8224298352393, 'loss': 0.18115237914025784}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_006_91.8224.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 94.53125, 'loss': 0.10515022277832031}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.41973039215686, 'loss': 0.1145063921370927}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.3434405940594, 'loss': 0.11853541149803908}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.3280215231788, 'loss': 0.11903471156757399}}
+INFO: 
+Acc:90.4206
+              precision    recall  f1-score   support
+
+  notsmoking     0.9641    0.8669    0.9130       248
+     smoking     0.8390    0.9556    0.8935       180
+
+    accuracy                         0.9042       428
+   macro avg     0.9016    0.9112    0.9032       428
+weighted avg     0.9115    0.9042    0.9048       428
+
+INFO: train epoch:007,{'Accuracy': 95.35495923913044, 'loss': 0.11890754790004829}
+INFO: test epoch:007,{'Accuracy': 90.42056074766356, 'loss': 0.26942040864378214}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_007_90.4206.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.09375, 'loss': 0.12107226252555847}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.68014705882354, 'loss': 0.10525661801882819}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.12685643564356, 'loss': 0.12149693311588598}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.37975993377484, 'loss': 0.11656435180628141}}
+INFO: 
+Acc:89.9533
+              precision    recall  f1-score   support
+
+  notsmoking     0.9325    0.8911    0.9113       248
+     smoking     0.8586    0.9111    0.8841       180
+
+    accuracy                         0.8995       428
+   macro avg     0.8956    0.9011    0.8977       428
+weighted avg     0.9014    0.8995    0.8999       428
+
+INFO: train epoch:008,{'Accuracy': 95.37194293478261, 'loss': 0.11797041459130528}
+INFO: test epoch:008,{'Accuracy': 89.95327088543188, 'loss': 0.2809700137004256}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_008_89.9533.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.4375, 'loss': 0.0673803836107254}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.59926470588235, 'loss': 0.09328635453301318}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.47277227722772, 'loss': 0.09530696099494944}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.31105132450331, 'loss': 0.09856353293092834}}
+INFO: 
+Acc:91.1215
+              precision    recall  f1-score   support
+
+  notsmoking     0.9605    0.8831    0.9202       248
+     smoking     0.8550    0.9500    0.9000       180
+
+    accuracy                         0.9112       428
+   macro avg     0.9078    0.9165    0.9101       428
+weighted avg     0.9161    0.9112    0.9117       428
+
+INFO: train epoch:009,{'Accuracy': 96.14045516304348, 'loss': 0.10341353550472338}
+INFO: test epoch:009,{'Accuracy': 91.1214953271028, 'loss': 0.24107029754668474}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_009_91.1215.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.875, 'loss': 0.08459636569023132}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.46139705882354, 'loss': 0.09315328296346992}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.55785891089108, 'loss': 0.09200678214357041}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.47144039735099, 'loss': 0.09368044112050375}}
+INFO: 
+Acc:80.1402
+              precision    recall  f1-score   support
+
+  notsmoking     0.9711    0.6774    0.7981       248
+     smoking     0.6863    0.9722    0.8046       180
+
+    accuracy                         0.8014       428
+   macro avg     0.8287    0.8248    0.8013       428
+weighted avg     0.8513    0.8014    0.8008       428
+
+INFO: train epoch:010,{'Accuracy': 96.52258831521739, 'loss': 0.09269183662558056}
+INFO: test epoch:010,{'Accuracy': 80.14018691588785, 'loss': 0.69437597587239}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_010_80.1402.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.3125, 'loss': 0.11411731690168381}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.13541666666667, 'loss': 0.08136658224405027}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.74350247524752, 'loss': 0.08668201394600443}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.58526490066225, 'loss': 0.09017086216550789}}
+INFO: 
+Acc:92.7570
+              precision    recall  f1-score   support
+
+  notsmoking     0.9697    0.9032    0.9353       248
+     smoking     0.8782    0.9611    0.9178       180
+
+    accuracy                         0.9276       428
+   macro avg     0.9239    0.9322    0.9265       428
+weighted avg     0.9312    0.9276    0.9279       428
+
+INFO: train epoch:011,{'Accuracy': 96.51834239130434, 'loss': 0.09214073823481474}
+INFO: test epoch:011,{'Accuracy': 92.75700934579439, 'loss': 0.19355425518006086}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_011_92.7570.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.875, 'loss': 0.080510713160038}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.78308823529412, 'loss': 0.08337538316845894}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.63521039603961, 'loss': 0.08631103065344367}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.52835264900662, 'loss': 0.0889419007626985}}
+INFO: 
+Acc:91.3551
+              precision    recall  f1-score   support
+
+  notsmoking     0.9774    0.8710    0.9211       248
+     smoking     0.8454    0.9722    0.9044       180
+
+    accuracy                         0.9136       428
+   macro avg     0.9114    0.9216    0.9128       428
+weighted avg     0.9219    0.9136    0.9141       428
+
+INFO: train epoch:012,{'Accuracy': 96.58627717391305, 'loss': 0.0879183356832389}
+INFO: test epoch:012,{'Accuracy': 91.35514018691589, 'loss': 0.2554112218786031}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_012_91.3551.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 96.09375, 'loss': 0.13307426869869232}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.44178921568627, 'loss': 0.06759890577956743}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.30816831683168, 'loss': 0.07339908285896377}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.14921357615894, 'loss': 0.07579132794889788}}
+INFO: 
+Acc:92.0561
+              precision    recall  f1-score   support
+
+  notsmoking     0.9652    0.8952    0.9289       248
+     smoking     0.8687    0.9556    0.9101       180
+
+    accuracy                         0.9206       428
+   macro avg     0.9170    0.9254    0.9195       428
+weighted avg     0.9246    0.9206    0.9210       428
+
+INFO: train epoch:013,{'Accuracy': 97.15523097826087, 'loss': 0.07498641680602146}
+INFO: test epoch:013,{'Accuracy': 92.05607476635514, 'loss': 0.22887100232765079}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_013_92.0561.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 100.0, 'loss': 0.016852669417858124}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.91666666666667, 'loss': 0.059538741075598145}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.33910891089108, 'loss': 0.0720125460434742}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.36651490066225, 'loss': 0.07068173099148846}}
+INFO: 
+Acc:92.2897
+              precision    recall  f1-score   support
+
+  notsmoking     0.9864    0.8790    0.9296       248
+     smoking     0.8551    0.9833    0.9147       180
+
+    accuracy                         0.9229       428
+   macro avg     0.9207    0.9312    0.9222       428
+weighted avg     0.9312    0.9229    0.9234       428
+
+INFO: train epoch:014,{'Accuracy': 97.40149456521739, 'loss': 0.06952363630483413}
+INFO: test epoch:014,{'Accuracy': 92.28971962616822, 'loss': 0.232903775642626}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_014_92.2897.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.4375, 'loss': 0.06791138648986816}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.8094362745098, 'loss': 0.06234510352506357}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.60983910891089, 'loss': 0.06742378853556544}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.49586092715232, 'loss': 0.07040549914617807}}
+INFO: 
+Acc:93.9252
+              precision    recall  f1-score   support
+
+  notsmoking     0.9664    0.9274    0.9465       248
+     smoking     0.9053    0.9556    0.9297       180
+
+    accuracy                         0.9393       428
+   macro avg     0.9358    0.9415    0.9381       428
+weighted avg     0.9407    0.9393    0.9394       428
+
+INFO: train epoch:015,{'Accuracy': 97.51613451086956, 'loss': 0.0701902070204201}
+INFO: test epoch:015,{'Accuracy': 93.92523364485982, 'loss': 0.17543562781065702}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_015_93.9252.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_015_93.9252.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 93.75, 'loss': 0.1402183622121811}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.00857843137256, 'loss': 0.05597712179901553}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.19771039603961, 'loss': 0.050933492683464344}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.05463576158941, 'loss': 0.05612826953635903}}
+INFO: 
+Acc:90.6542
+              precision    recall  f1-score   support
+
+  notsmoking     0.9771    0.8589    0.9142       248
+     smoking     0.8333    0.9722    0.8974       180
+
+    accuracy                         0.9065       428
+   macro avg     0.9052    0.9155    0.9058       428
+weighted avg     0.9166    0.9065    0.9071       428
+
+INFO: train epoch:016,{'Accuracy': 97.97469429347827, 'loss': 0.057687656786900174}
+INFO: test epoch:016,{'Accuracy': 90.65420560747664, 'loss': 0.3957130897324532}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_016_90.6542.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 95.3125, 'loss': 0.10638744384050369}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.15073529411765, 'loss': 0.07225212190008047}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.45513613861387, 'loss': 0.06719669993819281}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.4596440397351, 'loss': 0.06806912879453392}}
+INFO: 
+Acc:92.5234
+              precision    recall  f1-score   support
+
+  notsmoking     0.9615    0.9073    0.9336       248
+     smoking     0.8814    0.9500    0.9144       180
+
+    accuracy                         0.9252       428
+   macro avg     0.9215    0.9286    0.9240       428
+weighted avg     0.9279    0.9252    0.9255       428
+
+INFO: train epoch:017,{'Accuracy': 97.45669157608695, 'loss': 0.0673461751151911}
+INFO: test epoch:017,{'Accuracy': 92.52336441467855, 'loss': 0.2269439697265625}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_017_92.5234.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.4375, 'loss': 0.07284185290336609}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.2843137254902, 'loss': 0.04640181353498323}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.05847772277228, 'loss': 0.05122844705192169}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.98220198675497, 'loss': 0.054148316913783946}}
+INFO: 
+Acc:92.9907
+              precision    recall  f1-score   support
+
+  notsmoking     0.9580    0.9194    0.9383       248
+     smoking     0.8947    0.9444    0.9189       180
+
+    accuracy                         0.9299       428
+   macro avg     0.9264    0.9319    0.9286       428
+weighted avg     0.9314    0.9299    0.9301       428
+
+INFO: train epoch:018,{'Accuracy': 97.89826766304348, 'loss': 0.05551022700155559}
+INFO: test epoch:018,{'Accuracy': 92.99065406300197, 'loss': 0.221170786768198}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_018_92.9907.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 99.21875, 'loss': 0.0837741568684578}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.53370098039215, 'loss': 0.07141855242205601}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.57889851485149, 'loss': 0.06667179826388855}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.71833609271523, 'loss': 0.06339787957659423}}
+INFO: 
+Acc:89.4860
+              precision    recall  f1-score   support
+
+  notsmoking     0.9677    0.8468    0.9032       248
+     smoking     0.8199    0.9611    0.8849       180
+
+    accuracy                         0.8949       428
+   macro avg     0.8938    0.9039    0.8941       428
+weighted avg     0.9056    0.8949    0.8955       428
+
+INFO: train epoch:019,{'Accuracy': 97.77938179347827, 'loss': 0.06105591787997147}
+INFO: test epoch:019,{'Accuracy': 89.48598130841121, 'loss': 0.3481329600326717}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_019_89.4860.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 100.0, 'loss': 0.015576647594571114}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.45281862745098, 'loss': 0.04078583640283814}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.98112623762377, 'loss': 0.05355189437286394}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.97185430463576, 'loss': 0.05655626807707232}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:020,{'Accuracy': 97.9407269021739, 'loss': 0.05708681018111984}
+INFO: test epoch:020,{'Accuracy': 94.8598130128094, 'loss': 0.16178517416119576}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_020_94.8598.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_020_94.8598.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 100.0, 'loss': 0.017703238874673843}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.08517156862744, 'loss': 0.05287092734201282}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.12809405940594, 'loss': 0.05173904661753095}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.00289735099338, 'loss': 0.054696497729430534}}
+INFO: 
+Acc:88.3178
+              precision    recall  f1-score   support
+
+  notsmoking     0.9901    0.8065    0.8889       248
+     smoking     0.7876    0.9889    0.8768       180
+
+    accuracy                         0.8832       428
+   macro avg     0.8889    0.8977    0.8829       428
+weighted avg     0.9049    0.8832    0.8838       428
+
+INFO: train epoch:021,{'Accuracy': 97.9407269021739, 'loss': 0.05565983774747862}
+INFO: test epoch:021,{'Accuracy': 88.3177570093458, 'loss': 0.39886922162259}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_021_88.3178.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.65625, 'loss': 0.0636952817440033}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.17708333333333, 'loss': 0.049457986930421756}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.15903465346534, 'loss': 0.048699538564622995}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.12706953642385, 'loss': 0.05069778463649039}}
+INFO: 
+Acc:93.2243
+              precision    recall  f1-score   support
+
+  notsmoking     0.9433    0.9395    0.9414       248
+     smoking     0.9171    0.9222    0.9197       180
+
+    accuracy                         0.9322       428
+   macro avg     0.9302    0.9309    0.9305       428
+weighted avg     0.9323    0.9322    0.9323       428
+
+INFO: train epoch:022,{'Accuracy': 98.13179347826087, 'loss': 0.05150407914112767}
+INFO: test epoch:022,{'Accuracy': 93.2242989941178, 'loss': 0.2540236786007881}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_022_93.2243.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.4375, 'loss': 0.06082397326827049}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.16176470588235, 'loss': 0.05633089826533608}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.35241336633663, 'loss': 0.049180818288264296}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.36506622516556, 'loss': 0.04869314443801116}}
+INFO: 
+Acc:93.2243
+              precision    recall  f1-score   support
+
+  notsmoking     0.9506    0.9315    0.9409       248
+     smoking     0.9081    0.9333    0.9205       180
+
+    accuracy                         0.9322       428
+   macro avg     0.9294    0.9324    0.9307       428
+weighted avg     0.9327    0.9322    0.9324       428
+
+INFO: train epoch:023,{'Accuracy': 98.3101222826087, 'loss': 0.049266367176365435}
+INFO: test epoch:023,{'Accuracy': 93.22429892281505, 'loss': 0.2272981032729149}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_023_93.2243.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 99.21875, 'loss': 0.016875918954610825}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.39154411764706, 'loss': 0.042858083020238316}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.32147277227723, 'loss': 0.04373574880237627}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.19432947019868, 'loss': 0.04639697835984214}}
+INFO: 
+Acc:93.2243
+              precision    recall  f1-score   support
+
+  notsmoking     0.9433    0.9395    0.9414       248
+     smoking     0.9171    0.9222    0.9197       180
+
+    accuracy                         0.9322       428
+   macro avg     0.9302    0.9309    0.9305       428
+weighted avg     0.9323    0.9322    0.9323       428
+
+INFO: train epoch:024,{'Accuracy': 98.1530230978261, 'loss': 0.04843152387816783}
+INFO: test epoch:024,{'Accuracy': 93.2242989941178, 'loss': 0.244145680218935}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_024_93.2243.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.4375, 'loss': 0.03373090922832489}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.49877450980392, 'loss': 0.03809879651731428}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.31373762376238, 'loss': 0.04356994365092994}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.15811258278146, 'loss': 0.04900206961292798}}
+INFO: 
+Acc:92.5234
+              precision    recall  f1-score   support
+
+  notsmoking     0.9615    0.9073    0.9336       248
+     smoking     0.8814    0.9500    0.9144       180
+
+    accuracy                         0.9252       428
+   macro avg     0.9215    0.9286    0.9240       428
+weighted avg     0.9279    0.9252    0.9255       428
+
+INFO: train epoch:025,{'Accuracy': 98.14453125, 'loss': 0.04946276512877692}
+INFO: test epoch:025,{'Accuracy': 92.52336441467855, 'loss': 0.2983922101557255}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_025_92.5234.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 97.65625, 'loss': 0.06434041261672974}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.5140931372549, 'loss': 0.04180489805545293}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.49938118811882, 'loss': 0.04175105589524944}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.4478476821192, 'loss': 0.042397132078617415}}
+INFO: 
+Acc:92.7570
+              precision    recall  f1-score   support
+
+  notsmoking     0.9738    0.8992    0.9350       248
+     smoking     0.8744    0.9667    0.9182       180
+
+    accuracy                         0.9276       428
+   macro avg     0.9241    0.9329    0.9266       428
+weighted avg     0.9320    0.9276    0.9279       428
+
+INFO: train epoch:026,{'Accuracy': 98.37381114130434, 'loss': 0.04411547387312369}
+INFO: test epoch:026,{'Accuracy': 92.75700927449164, 'loss': 0.2495623230934143}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_026_92.7570.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 99.21875, 'loss': 0.02305915206670761}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.39154411764706, 'loss': 0.04751894869567717}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.52258663366337, 'loss': 0.04206982786573543}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.41163079470199, 'loss': 0.043584004059952025}}
+INFO: 
+Acc:93.4579
+              precision    recall  f1-score   support
+
+  notsmoking     0.9783    0.9073    0.9414       248
+     smoking     0.8838    0.9722    0.9259       180
+
+    accuracy                         0.9346       428
+   macro avg     0.9310    0.9397    0.9337       428
+weighted avg     0.9386    0.9346    0.9349       428
+
+INFO: train epoch:027,{'Accuracy': 98.42051630434783, 'loss': 0.04368033305660862}
+INFO: test epoch:027,{'Accuracy': 93.45794392523365, 'loss': 0.2880824030726217}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_027_93.4579.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 99.21875, 'loss': 0.023448625579476357}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.69791666666667, 'loss': 0.03748237435231168}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.59993811881188, 'loss': 0.04001441898774171}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.39610927152317, 'loss': 0.04290278393633368}}
+INFO: 
+Acc:92.7570
+              precision    recall  f1-score   support
+
+  notsmoking     0.9865    0.8871    0.9342       248
+     smoking     0.8634    0.9833    0.9195       180
+
+    accuracy                         0.9276       428
+   macro avg     0.9250    0.9352    0.9268       428
+weighted avg     0.9348    0.9276    0.9280       428
+
+INFO: train epoch:028,{'Accuracy': 98.37805706521739, 'loss': 0.04369866300966469}
+INFO: test epoch:028,{'Accuracy': 92.75700934579439, 'loss': 0.2934301703935489}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_028_92.7570.pth
+INFO: {'lr': 0.01, 'train': {'Accuracy': 100.0, 'loss': 0.004150089342147112}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.60600490196079, 'loss': 0.035361785222502315}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.23638613861387, 'loss': 0.045182247895120396}}
+INFO: {'lr': 0.01, 'train': {'Accuracy': 98.18398178807946, 'loss': 0.0483647021619196}}
+INFO: 
+Acc:91.1215
+              precision    recall  f1-score   support
+
+  notsmoking     0.9688    0.8750    0.9195       248
+     smoking     0.8480    0.9611    0.9010       180
+
+    accuracy                         0.9112       428
+   macro avg     0.9084    0.9181    0.9103       428
+weighted avg     0.9180    0.9112    0.9117       428
+
+INFO: train epoch:029,{'Accuracy': 98.19548233695652, 'loss': 0.04839261757898266}
+INFO: test epoch:029,{'Accuracy': 91.12149525580006, 'loss': 0.2869031922891736}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_029_91.1215.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 97.65625, 'loss': 0.04189838096499443}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 98.97365196078431, 'loss': 0.029911700800499496}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.08725247524752, 'loss': 0.026906125874507546}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.12562086092716, 'loss': 0.02555547547002403}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9789    0.9355    0.9567       248
+     smoking     0.9162    0.9722    0.9434       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9476    0.9539    0.9500       428
+weighted avg     0.9525    0.9509    0.9511       428
+
+INFO: train epoch:030,{'Accuracy': 99.14232336956522, 'loss': 0.025146159110590816}
+INFO: test epoch:030,{'Accuracy': 95.09345787262248, 'loss': 0.19003895111382008}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_030_95.0935.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_030_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.008590099401772022}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.58639705882354, 'loss': 0.014460919150973068}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.55136138613861, 'loss': 0.01468257387491441}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.57057119205298, 'loss': 0.014284879197397375}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:031,{'Accuracy': 99.5796535326087, 'loss': 0.014105057486828984}
+INFO: test epoch:031,{'Accuracy': 94.8598130128094, 'loss': 0.19284689147025347}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_031_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0025379748549312353}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.75490196078431, 'loss': 0.009234184910561525}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.64418316831683, 'loss': 0.01158965961883158}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.62748344370861, 'loss': 0.011640543956155365}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:032,{'Accuracy': 99.6390964673913, 'loss': 0.011567390886383415}
+INFO: test epoch:032,{'Accuracy': 95.09345787262248, 'loss': 0.1847526915371418}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_032_95.0935.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_032_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.00747416028752923}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.78553921568627, 'loss': 0.008317195127864241}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.76021039603961, 'loss': 0.009487810382149228}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.69991721854305, 'loss': 0.010852354175460507}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:033,{'Accuracy': 99.7155230978261, 'loss': 0.010481286941364448}
+INFO: test epoch:033,{'Accuracy': 95.09345787262248, 'loss': 0.18419280275702477}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_033_95.0935.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_033_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.008635479025542736}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.63235294117646, 'loss': 0.009802356930723524}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.7292698019802, 'loss': 0.009000068800155036}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.74648178807946, 'loss': 0.008561856284913367}}
+INFO: 
+Acc:94.6262
+              precision    recall  f1-score   support
+
+  notsmoking     0.9707    0.9355    0.9528       248
+     smoking     0.9153    0.9611    0.9377       180
+
+    accuracy                         0.9463       428
+   macro avg     0.9430    0.9483    0.9452       428
+weighted avg     0.9474    0.9463    0.9464       428
+
+INFO: train epoch:034,{'Accuracy': 99.74949048913044, 'loss': 0.008629503321730148}
+INFO: test epoch:034,{'Accuracy': 94.62616815299631, 'loss': 0.1946056094020605}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_034_94.6262.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.00949700828641653}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.86213235294117, 'loss': 0.006547205828075462}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.79888613861387, 'loss': 0.00709115914276589}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.8033940397351, 'loss': 0.006945751092800661}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:035,{'Accuracy': 99.78770380434783, 'loss': 0.006896125256626756}
+INFO: test epoch:035,{'Accuracy': 95.09345787262248, 'loss': 0.19315864518284798}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_035_95.0935.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_035_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0011942354030907154}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.89276960784314, 'loss': 0.005363183061811416}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.82209158415841, 'loss': 0.006063945967782436}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.83443708609272, 'loss': 0.006094932962449526}}
+INFO: 
+Acc:95.3271
+              precision    recall  f1-score   support
+
+  notsmoking     0.9790    0.9395    0.9588       248
+     smoking     0.9211    0.9722    0.9459       180
+
+    accuracy                         0.9533       428
+   macro avg     0.9500    0.9559    0.9524       428
+weighted avg     0.9546    0.9533    0.9534       428
+
+INFO: train epoch:036,{'Accuracy': 99.84714673913044, 'loss': 0.00581913274958345}
+INFO: test epoch:036,{'Accuracy': 95.32710273243556, 'loss': 0.21799363754689693}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_036_95.3271.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_036_95.3271.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.21875, 'loss': 0.012221608310937881}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.8468137254902, 'loss': 0.005391675262145844}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.86850247524752, 'loss': 0.005311710215957448}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.83961092715232, 'loss': 0.005652433386556681}}
+INFO: 
+Acc:95.3271
+              precision    recall  f1-score   support
+
+  notsmoking     0.9711    0.9476    0.9592       248
+     smoking     0.9301    0.9611    0.9454       180
+
+    accuracy                         0.9533       428
+   macro avg     0.9506    0.9543    0.9523       428
+weighted avg     0.9538    0.9533    0.9534       428
+
+INFO: train epoch:037,{'Accuracy': 99.82167119565217, 'loss': 0.006401640852108476}
+INFO: test epoch:037,{'Accuracy': 95.32710273243556, 'loss': 0.20972638204693794}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_037_95.3271.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_037_95.3271.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.01121804490685463}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.80085784313725, 'loss': 0.006225009326704358}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.86076732673267, 'loss': 0.005552098336560412}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.87582781456953, 'loss': 0.005117193394454677}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:038,{'Accuracy': 99.86837635869566, 'loss': 0.005196320552900231}
+INFO: test epoch:038,{'Accuracy': 95.09345787262248, 'loss': 0.21824122220277786}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_038_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.21875, 'loss': 0.020625295117497444}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.87745098039215, 'loss': 0.006021473454608235}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.89944306930693, 'loss': 0.005177890630911501}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.86030629139073, 'loss': 0.005309057326575692}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:039,{'Accuracy': 99.85139266304348, 'loss': 0.005465510377056806}
+INFO: test epoch:039,{'Accuracy': 94.8598130128094, 'loss': 0.2195879966020584}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_039_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.21875, 'loss': 0.009299327619373798}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.8468137254902, 'loss': 0.004654171424073295}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.89944306930693, 'loss': 0.004355067090133648}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.88100165562913, 'loss': 0.004697378252020772}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:040,{'Accuracy': 99.8726222826087, 'loss': 0.004867641353326769}
+INFO: test epoch:040,{'Accuracy': 94.8598130128094, 'loss': 0.22003459744155407}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_040_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.003948744386434555}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.81617647058823, 'loss': 0.00621333314384352}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.84529702970298, 'loss': 0.005044483307675265}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.87065397350993, 'loss': 0.004572734216672202}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:041,{'Accuracy': 99.8726222826087, 'loss': 0.004776547746429139}
+INFO: test epoch:041,{'Accuracy': 95.09345787262248, 'loss': 0.2247004695236683}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_041_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0029215242248028517}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.87745098039215, 'loss': 0.004759993951986818}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.88397277227723, 'loss': 0.004461945004883398}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.89134933774834, 'loss': 0.004265502396283289}}
+INFO: 
+Acc:95.3271
+              precision    recall  f1-score   support
+
+  notsmoking     0.9711    0.9476    0.9592       248
+     smoking     0.9301    0.9611    0.9454       180
+
+    accuracy                         0.9533       428
+   macro avg     0.9506    0.9543    0.9523       428
+weighted avg     0.9538    0.9533    0.9534       428
+
+INFO: train epoch:042,{'Accuracy': 99.88111413043478, 'loss': 0.004381937175545001}
+INFO: test epoch:042,{'Accuracy': 95.32710273243556, 'loss': 0.21938346698880196}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_042_95.3271.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_042_95.3271.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.000387216656235978}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.002732225714876846}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.89170792079207, 'loss': 0.0038824575370532636}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.88617549668874, 'loss': 0.00404909974683403}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:043,{'Accuracy': 99.88960597826087, 'loss': 0.0039051381693001454}
+INFO: test epoch:043,{'Accuracy': 94.8598130128094, 'loss': 0.24490213580429554}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_043_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0010684472508728504}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.86213235294117, 'loss': 0.005104222023909839}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.89944306930693, 'loss': 0.004100939704999696}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.91721854304636, 'loss': 0.003922409388400145}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:044,{'Accuracy': 99.90234375, 'loss': 0.003936520676728358}
+INFO: test epoch:044,{'Accuracy': 95.09345787262248, 'loss': 0.2394598349928856}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_044_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0004806226643268019}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0030506509781344886}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.002847908016744918}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.91204470198676, 'loss': 0.0033204562743101886}}
+INFO: 
+Acc:95.5607
+              precision    recall  f1-score   support
+
+  notsmoking     0.9751    0.9476    0.9611       248
+     smoking     0.9305    0.9667    0.9482       180
+
+    accuracy                         0.9556       428
+   macro avg     0.9528    0.9571    0.9547       428
+weighted avg     0.9563    0.9556    0.9557       428
+
+INFO: train epoch:045,{'Accuracy': 99.92357336956522, 'loss': 0.0031942176833779186}
+INFO: test epoch:045,{'Accuracy': 95.56074759224865, 'loss': 0.2344157975167036}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_045_95.5607.pth
+INFO: save best_model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/best_model_045_95.5607.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0022488844115287066}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.86213235294117, 'loss': 0.004853783357390842}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.87623762376238, 'loss': 0.003955564042380412}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.90169701986756, 'loss': 0.003617913085606492}}
+INFO: 
+Acc:94.6262
+              precision    recall  f1-score   support
+
+  notsmoking     0.9707    0.9355    0.9528       248
+     smoking     0.9153    0.9611    0.9377       180
+
+    accuracy                         0.9463       428
+   macro avg     0.9430    0.9483    0.9452       428
+weighted avg     0.9474    0.9463    0.9464       428
+
+INFO: train epoch:046,{'Accuracy': 99.90234375, 'loss': 0.003554249471444168}
+INFO: test epoch:046,{'Accuracy': 94.62616815299631, 'loss': 0.26589191891252995}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_046_94.6262.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0003855983668472618}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.002273787844780029}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.002487453316525086}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.002766085646557776}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:047,{'Accuracy': 99.94904891304348, 'loss': 0.002622279180523828}
+INFO: test epoch:047,{'Accuracy': 94.8598130128094, 'loss': 0.26553430408239365}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_047_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.007671094033867121}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0027969002928561987}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.90717821782178, 'loss': 0.003464663176916051}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.90169701986756, 'loss': 0.0034885555522135513}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:048,{'Accuracy': 99.89809782608695, 'loss': 0.0035579653006646804}
+INFO: test epoch:048,{'Accuracy': 94.8598130128094, 'loss': 0.26188516803085804}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_048_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0005781255895271897}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.002031254080493989}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95358910891089, 'loss': 0.0021767045532890346}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.94308774834437, 'loss': 0.002411278524140778}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:049,{'Accuracy': 99.95329483695652, 'loss': 0.0023348299418221754}
+INFO: test epoch:049,{'Accuracy': 95.09345787262248, 'loss': 0.2639774661511183}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_049_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0010602959664538503}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.002829807194168953}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.0028287367079761986}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.0026076407729191645}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:050,{'Accuracy': 99.9320652173913, 'loss': 0.002687419107172426}
+INFO: test epoch:050,{'Accuracy': 95.09345787262248, 'loss': 0.2744004186242819}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_050_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0002815219631884247}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0022100515845665416}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0023651982215002624}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95343543046357, 'loss': 0.0021959617503630366}}
+INFO: 
+Acc:95.3271
+              precision    recall  f1-score   support
+
+  notsmoking     0.9711    0.9476    0.9592       248
+     smoking     0.9301    0.9611    0.9454       180
+
+    accuracy                         0.9533       428
+   macro avg     0.9506    0.9543    0.9523       428
+weighted avg     0.9538    0.9533    0.9534       428
+
+INFO: train epoch:051,{'Accuracy': 99.94904891304348, 'loss': 0.002234831124121189}
+INFO: test epoch:051,{'Accuracy': 95.32710273243556, 'loss': 0.24497059732675552}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_051_95.3271.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.21875, 'loss': 0.012577148154377937}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.0025014359031475205}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.0030141922061465275}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.91204470198676, 'loss': 0.003046754333429618}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:052,{'Accuracy': 99.91508152173913, 'loss': 0.0030549863589365723}
+INFO: test epoch:052,{'Accuracy': 95.09345787262248, 'loss': 0.2741736564785242}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_052_95.0935.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0025381608866155148}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.90808823529412, 'loss': 0.0030935382968106983}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.002634917858453228}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.94308774834437, 'loss': 0.0026844076760998304}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:053,{'Accuracy': 99.93631114130434, 'loss': 0.002617946519856797}
+INFO: test epoch:053,{'Accuracy': 94.8598130128094, 'loss': 0.2742510475218296}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_053_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0009250788134522736}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.89276960784314, 'loss': 0.0027136935426753162}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.002455275377695504}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.002281969929320602}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9788    0.9315    0.9545       248
+     smoking     0.9115    0.9722    0.9409       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9451    0.9518    0.9477       428
+weighted avg     0.9505    0.9486    0.9488       428
+
+INFO: train epoch:054,{'Accuracy': 99.9320652173913, 'loss': 0.0022140413938873476}
+INFO: test epoch:054,{'Accuracy': 94.8598130128094, 'loss': 0.2748852986842394}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_054_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0019045306835323572}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0021926989980320466}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.0028269177185726527}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.92756622516556, 'loss': 0.002643566308789794}}
+INFO: 
+Acc:94.6262
+              precision    recall  f1-score   support
+
+  notsmoking     0.9747    0.9315    0.9526       248
+     smoking     0.9110    0.9667    0.9380       180
+
+    accuracy                         0.9463       428
+   macro avg     0.9428    0.9491    0.9453       428
+weighted avg     0.9479    0.9463    0.9464       428
+
+INFO: train epoch:055,{'Accuracy': 99.94055706521739, 'loss': 0.0023903999826079994}
+INFO: test epoch:055,{'Accuracy': 94.62616815299631, 'loss': 0.28407663106918335}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_055_94.6262.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.003188495757058263}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.002714104255360058}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.002462174361174013}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.002799803386569572}}
+INFO: 
+Acc:94.3925
+              precision    recall  f1-score   support
+
+  notsmoking     0.9667    0.9355    0.9508       248
+     smoking     0.9149    0.9556    0.9348       180
+
+    accuracy                         0.9439       428
+   macro avg     0.9408    0.9455    0.9428       428
+weighted avg     0.9449    0.9439    0.9441       428
+
+INFO: train epoch:056,{'Accuracy': 99.9320652173913, 'loss': 0.002808225588049264}
+INFO: test epoch:056,{'Accuracy': 94.39252329318323, 'loss': 0.2745015900582075}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_056_94.3925.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.00037553347647190094}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.002172012564009421}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.91491336633663, 'loss': 0.0027279814317393678}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.0024751164626240704}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:057,{'Accuracy': 99.9320652173913, 'loss': 0.0026406873672069355}
+INFO: test epoch:057,{'Accuracy': 94.8598130128094, 'loss': 0.27581621520221233}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_057_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 100.0, 'loss': 0.0005018168012611568}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.0023143160531831465}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93038366336634, 'loss': 0.0023205673511112386}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.002169105541996044}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:058,{'Accuracy': 99.94055706521739, 'loss': 0.002073401257368222}
+INFO: test epoch:058,{'Accuracy': 94.8598130128094, 'loss': 0.2695116810500622}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_058_94.8598.pth
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.21875, 'loss': 0.012469559907913208}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.002310553466611286}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0021838070870847394}}
+INFO: {'lr': 0.001, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.00233856197516935}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:059,{'Accuracy': 99.92781929347827, 'loss': 0.0023409848753663423}
+INFO: test epoch:059,{'Accuracy': 94.8598130128094, 'loss': 0.27505659870803356}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_059_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0018416506936773658}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.0025121405741825296}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0020297784034086688}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.0021256497073903163}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:060,{'Accuracy': 99.94480298913044, 'loss': 0.0020511814698535168}
+INFO: test epoch:060,{'Accuracy': 94.8598130128094, 'loss': 0.2845764383673668}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_060_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0005094385705888271}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90808823529412, 'loss': 0.0025868945861778534}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.89944306930693, 'loss': 0.002703772289828296}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90687086092716, 'loss': 0.002566052206153195}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:061,{'Accuracy': 99.92357336956522, 'loss': 0.002421842545988076}
+INFO: test epoch:061,{'Accuracy': 95.09345787262248, 'loss': 0.28874158672988415}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_061_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00013744464376941323}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.87745098039215, 'loss': 0.0027617206267713497}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.91491336633663, 'loss': 0.0022726670004966864}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90687086092716, 'loss': 0.002809915105345434}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:062,{'Accuracy': 99.91932744565217, 'loss': 0.002601235935838739}
+INFO: test epoch:062,{'Accuracy': 94.8598130128094, 'loss': 0.27497309260070324}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_062_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0002528568438719958}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0016213626425037636}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.001565954655882589}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96378311258277, 'loss': 0.0016892813505575567}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:063,{'Accuracy': 99.96178668478261, 'loss': 0.0017756960222987286}
+INFO: test epoch:063,{'Accuracy': 95.09345787262248, 'loss': 0.281376326456666}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_063_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0015341300750151277}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.001972161709073036}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0018154675557939704}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0018829740136738448}}
+INFO: 
+Acc:94.6262
+              precision    recall  f1-score   support
+
+  notsmoking     0.9668    0.9395    0.9530       248
+     smoking     0.9198    0.9556    0.9373       180
+
+    accuracy                         0.9463       428
+   macro avg     0.9433    0.9475    0.9451       428
+weighted avg     0.9470    0.9463    0.9464       428
+
+INFO: train epoch:064,{'Accuracy': 99.95329483695652, 'loss': 0.0020110444766428177}
+INFO: test epoch:064,{'Accuracy': 94.62616815299631, 'loss': 0.2675542365759611}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_064_94.6262.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0016636159271001816}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90808823529412, 'loss': 0.002340433739328885}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.0019435784184445378}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94308774834437, 'loss': 0.0019280141920976137}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:065,{'Accuracy': 99.93631114130434, 'loss': 0.002138379970307616}
+INFO: test epoch:065,{'Accuracy': 94.8598130128094, 'loss': 0.271184828132391}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_065_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0004293783858884126}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.89276960784314, 'loss': 0.002708766078428073}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.0021269802984696267}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.0020092468900915965}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:066,{'Accuracy': 99.94904891304348, 'loss': 0.0020287010374095585}
+INFO: test epoch:066,{'Accuracy': 94.8598130128094, 'loss': 0.2727405223995447}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_066_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00020642946765292436}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0014670316675477022}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.001581491954987154}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96895695364239, 'loss': 0.001552809874985108}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:067,{'Accuracy': 99.96178668478261, 'loss': 0.001647353967279702}
+INFO: test epoch:067,{'Accuracy': 94.8598130128094, 'loss': 0.28595529310405254}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_067_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.21875, 'loss': 0.03095724992454052}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90808823529412, 'loss': 0.002910596355065411}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.91491336633663, 'loss': 0.002374204434108653}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.92756622516556, 'loss': 0.00228723581599508}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:068,{'Accuracy': 99.92781929347827, 'loss': 0.002181498138744918}
+INFO: test epoch:068,{'Accuracy': 95.09345787262248, 'loss': 0.28115537762641907}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_068_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 5.581479490501806e-05}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0018806420018389711}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93038366336634, 'loss': 0.0024151310466874235}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.0022813433917437446}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:069,{'Accuracy': 99.92781929347827, 'loss': 0.002388126580349901}
+INFO: test epoch:069,{'Accuracy': 94.8598130128094, 'loss': 0.2718856446444988}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_069_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0006754439091309905}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90808823529412, 'loss': 0.0024327916752572135}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93038366336634, 'loss': 0.0021969682882375103}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.002115105743728507}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:070,{'Accuracy': 99.93631114130434, 'loss': 0.002129478473761992}
+INFO: test epoch:070,{'Accuracy': 94.8598130128094, 'loss': 0.2702194042503834}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_070_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0009727329597808421}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.001736690894034052}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93038366336634, 'loss': 0.002605133851091631}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94308774834437, 'loss': 0.0022421905332702112}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:071,{'Accuracy': 99.94904891304348, 'loss': 0.002139540921709103}
+INFO: test epoch:071,{'Accuracy': 94.8598130128094, 'loss': 0.2810425255447626}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_071_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 6.818486144766212e-05}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0016286338200991262}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.0021132376442068615}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.0022966671978479672}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:072,{'Accuracy': 99.92357336956522, 'loss': 0.002527342928537426}
+INFO: test epoch:072,{'Accuracy': 94.8598130128094, 'loss': 0.27152650989592075}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_072_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.008811745792627335}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0014332242380809405}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98452970297029, 'loss': 0.0016551344201751377}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96895695364239, 'loss': 0.0019165815477431383}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:073,{'Accuracy': 99.9702785326087, 'loss': 0.0019118966987187614}
+INFO: test epoch:073,{'Accuracy': 94.8598130128094, 'loss': 0.2762451283633709}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_073_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0006256070337258279}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0022852436963790644}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.002464487502641865}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.0023672319513079495}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:074,{'Accuracy': 99.94480298913044, 'loss': 0.0021604696848162744}
+INFO: test epoch:074,{'Accuracy': 94.8598130128094, 'loss': 0.27371058613061905}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_074_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0006486516795121133}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0020726035014091643}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0020630747093680767}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96378311258277, 'loss': 0.001909319635570074}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:075,{'Accuracy': 99.96603260869566, 'loss': 0.0017813585463559518}
+INFO: test epoch:075,{'Accuracy': 94.8598130128094, 'loss': 0.2763899117708206}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_075_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00430389354005456}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.002011234818115447}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95358910891089, 'loss': 0.002028329186959856}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94308774834437, 'loss': 0.002102879055857424}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:076,{'Accuracy': 99.94480298913044, 'loss': 0.002136758191583162}
+INFO: test epoch:076,{'Accuracy': 94.8598130128094, 'loss': 0.27338716201484203}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_076_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0007813366246409714}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0011398165047912876}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.97679455445545, 'loss': 0.0014565428599339477}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95343543046357, 'loss': 0.0018468800736922734}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:077,{'Accuracy': 99.95754076086956, 'loss': 0.0016932464830302786}
+INFO: test epoch:077,{'Accuracy': 95.09345787262248, 'loss': 0.2675779554992914}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_077_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.002448477316647768}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0017465171558262013}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.002075852354092865}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.0021817451309692577}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:078,{'Accuracy': 99.94055706521739, 'loss': 0.00205160217133791}
+INFO: test epoch:078,{'Accuracy': 94.8598130128094, 'loss': 0.27297518588602543}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_078_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0002235697174910456}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0020715757815267743}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95358910891089, 'loss': 0.001833107273035572}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0017421357421357098}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:079,{'Accuracy': 99.95329483695652, 'loss': 0.0019899410127317938}
+INFO: test epoch:079,{'Accuracy': 94.8598130128094, 'loss': 0.2818159945309162}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_079_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0003703278489410877}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.0022678086402889925}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.002287399587117707}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.0021202842743403513}}
+INFO: 
+Acc:94.6262
+              precision    recall  f1-score   support
+
+  notsmoking     0.9707    0.9355    0.9528       248
+     smoking     0.9153    0.9611    0.9377       180
+
+    accuracy                         0.9463       428
+   macro avg     0.9430    0.9483    0.9452       428
+weighted avg     0.9474    0.9463    0.9464       428
+
+INFO: train epoch:080,{'Accuracy': 99.93631114130434, 'loss': 0.0020087156593866025}
+INFO: test epoch:080,{'Accuracy': 94.62616815299631, 'loss': 0.2775941174477339}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_080_94.6262.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00014876890054438263}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0018709940860372073}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.0020540736985651055}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.92239238410596, 'loss': 0.0021922437995784017}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:081,{'Accuracy': 99.9320652173913, 'loss': 0.002076117239322111}
+INFO: test epoch:081,{'Accuracy': 95.09345787262248, 'loss': 0.26106180995702744}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_081_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0014321389608085155}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0019645883585326374}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.002344822559487259}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.0023424952252018606}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:082,{'Accuracy': 99.94055706521739, 'loss': 0.0022723021472658097}
+INFO: test epoch:082,{'Accuracy': 94.8598130128094, 'loss': 0.2640429902821779}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_082_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.004526110365986824}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.002808559632017825}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95358910891089, 'loss': 0.0021689720205457807}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94308774834437, 'loss': 0.001976278073504021}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:083,{'Accuracy': 99.94480298913044, 'loss': 0.0019482325893161192}
+INFO: test epoch:083,{'Accuracy': 94.8598130128094, 'loss': 0.28103056363761425}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_083_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00026808015536516905}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90808823529412, 'loss': 0.002484268886416662}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93038366336634, 'loss': 0.0018981365499370225}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.0019736368136749516}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:084,{'Accuracy': 99.94480298913044, 'loss': 0.0018807620924195837}
+INFO: test epoch:084,{'Accuracy': 95.09345787262248, 'loss': 0.2795663643628359}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_084_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00020146563474554569}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0013859101936937875}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.97679455445545, 'loss': 0.0013815885875662235}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.97413079470199, 'loss': 0.001361936312436746}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:085,{'Accuracy': 99.96603260869566, 'loss': 0.0015040442497237286}
+INFO: test epoch:085,{'Accuracy': 95.09345787262248, 'loss': 0.27354189939796925}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_085_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00020948643214069307}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0021206909248790264}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93038366336634, 'loss': 0.0024723518844538294}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.0020678569170024205}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:086,{'Accuracy': 99.94904891304348, 'loss': 0.002130829429599702}
+INFO: test epoch:086,{'Accuracy': 94.8598130128094, 'loss': 0.27093000151216984}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_086_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.21875, 'loss': 0.009789438918232918}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.001225851689905896}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0015309886043138646}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.0016031092392395957}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:087,{'Accuracy': 99.94480298913044, 'loss': 0.001813395068952757}
+INFO: test epoch:087,{'Accuracy': 94.8598130128094, 'loss': 0.27897416241467}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_087_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00024406146258115768}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0022473145175300646}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.002010948668504341}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0018672008217803498}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:088,{'Accuracy': 99.95329483695652, 'loss': 0.0020113122912769777}
+INFO: test epoch:088,{'Accuracy': 95.09345787262248, 'loss': 0.266197357326746}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_088_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.001248287153430283}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0014910668057079117}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0015171711861287328}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95343543046357, 'loss': 0.0017601609144175566}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:089,{'Accuracy': 99.94904891304348, 'loss': 0.0018916509315322796}
+INFO: test epoch:089,{'Accuracy': 95.09345787262248, 'loss': 0.2631864435970783}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_089_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0006199037306942046}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.002117504234489638}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.00203601260295502}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.002164944611155946}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:090,{'Accuracy': 99.95754076086956, 'loss': 0.0019544644415161556}
+INFO: test epoch:090,{'Accuracy': 95.09345787262248, 'loss': 0.2687315307557583}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_090_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0005091481143608689}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0019542336660521744}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95358910891089, 'loss': 0.0017953040191744072}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96378311258277, 'loss': 0.0015135624827649398}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:091,{'Accuracy': 99.96603260869566, 'loss': 0.0015019033724891651}
+INFO: test epoch:091,{'Accuracy': 95.09345787262248, 'loss': 0.2672187089920044}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_091_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0005775382160209119}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.001895729711167423}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0024932562019866155}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.0023959110536175433}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:092,{'Accuracy': 99.94904891304348, 'loss': 0.0023165741819036116}
+INFO: test epoch:092,{'Accuracy': 94.8598130128094, 'loss': 0.2643175423145294}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_092_94.8598.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0004758525756187737}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0013085580913135416}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98452970297029, 'loss': 0.0012732145255405598}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.9844784768212, 'loss': 0.0013309295300252826}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:093,{'Accuracy': 99.97452445652173, 'loss': 0.001485038397079378}
+INFO: test epoch:093,{'Accuracy': 95.09345787262248, 'loss': 0.2783054821193218}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_093_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0009151130798272789}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0017179988496411848}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0020621376588138393}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0018952694990489454}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:094,{'Accuracy': 99.95329483695652, 'loss': 0.0020406965914725847}
+INFO: test epoch:094,{'Accuracy': 95.09345787262248, 'loss': 0.2688560578972101}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_094_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.21875, 'loss': 0.006967547815293074}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0015716837310630544}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0015342652415242944}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0014275814006781584}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:095,{'Accuracy': 99.96603260869566, 'loss': 0.0013923438179675861}
+INFO: test epoch:095,{'Accuracy': 95.09345787262248, 'loss': 0.2629291396588087}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_095_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0023678122088313103}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.90808823529412, 'loss': 0.0027693751483228897}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.0022228422247929187}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.0020377883607242565}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:096,{'Accuracy': 99.9320652173913, 'loss': 0.002210024019602671}
+INFO: test epoch:096,{'Accuracy': 95.09345787262248, 'loss': 0.27492774091660976}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_096_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.00037497442099265754}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0014986641532125171}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.001612699818987593}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0016914341302988712}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:097,{'Accuracy': 99.96178668478261, 'loss': 0.0015800888929690068}
+INFO: test epoch:097,{'Accuracy': 95.09345787262248, 'loss': 0.2625615242868662}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_097_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0007649515755474567}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.00163744119259611}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.97679455445545, 'loss': 0.0015559412207192796}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.97413079470199, 'loss': 0.0015322129646010098}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:098,{'Accuracy': 99.9702785326087, 'loss': 0.0016025560674318947}
+INFO: test epoch:098,{'Accuracy': 95.09345787262248, 'loss': 0.2757279258221388}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_098_95.0935.pth
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 100.0, 'loss': 0.0007578153163194656}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0017005555818482832}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0017064874481737134}}
+INFO: {'lr': 0.00010000000000000002, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.001577008128910563}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:099,{'Accuracy': 99.96178668478261, 'loss': 0.0016253284811682533}
+INFO: test epoch:099,{'Accuracy': 95.09345787262248, 'loss': 0.2775547634810209}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_099_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0021300502121448517}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0012682959709576715}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.98452970297029, 'loss': 0.0015445054908707222}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0017414089108798777}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:100,{'Accuracy': 99.94904891304348, 'loss': 0.0019472138355131788}
+INFO: test epoch:100,{'Accuracy': 95.09345787262248, 'loss': 0.26463428884744644}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_100_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.21875, 'loss': 0.02124549075961113}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.002997976195782779}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.91491336633663, 'loss': 0.0027543864207743383}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93274006622516, 'loss': 0.0023596678353674148}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:101,{'Accuracy': 99.94055706521739, 'loss': 0.0021519872060430907}
+INFO: test epoch:101,{'Accuracy': 94.8598130128094, 'loss': 0.26623594015836716}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_101_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0017752802232280374}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0013307498522016092}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.0013554376162592055}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9793046357616, 'loss': 0.0012487055530362233}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:102,{'Accuracy': 99.96603260869566, 'loss': 0.0013705552104827643}
+INFO: test epoch:102,{'Accuracy': 95.09345787262248, 'loss': 0.2664093840867281}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_102_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0004566564748529345}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9234068627451, 'loss': 0.0024558054899577707}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93811881188118, 'loss': 0.0020916616877812966}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.001842616846116525}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:103,{'Accuracy': 99.96178668478261, 'loss': 0.001780026772730312}
+INFO: test epoch:103,{'Accuracy': 94.8598130128094, 'loss': 0.28507523238658905}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_103_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0004396064323373139}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0010752954458082824}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.0016349950040394376}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.97413079470199, 'loss': 0.0015569992071643645}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:104,{'Accuracy': 99.95754076086956, 'loss': 0.0016469332937128418}
+INFO: test epoch:104,{'Accuracy': 94.8598130128094, 'loss': 0.2771889194846153}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_104_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.00026729461387731135}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0012874077663439618}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0013870218588473819}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.001381806588208608}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:105,{'Accuracy': 99.96603260869566, 'loss': 0.0014286724947100004}
+INFO: test epoch:105,{'Accuracy': 95.09345787262248, 'loss': 0.2723842319101095}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_105_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.00041805789805948734}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.001934093237294149}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93038366336634, 'loss': 0.0019458117322116804}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95343543046357, 'loss': 0.0016266191274155893}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:106,{'Accuracy': 99.95329483695652, 'loss': 0.0016349831943760205}
+INFO: test epoch:106,{'Accuracy': 95.09345787262248, 'loss': 0.2728162631392479}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_106_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0005527646862901747}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0012220873150177866}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.0014578884532029676}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.001728014891835343}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:107,{'Accuracy': 99.92357336956522, 'loss': 0.0018736405563686276}
+INFO: test epoch:107,{'Accuracy': 94.8598130128094, 'loss': 0.2737752441316843}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_107_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0009538778103888035}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.98468137254902, 'loss': 0.0018314905450382618}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0021652176454352067}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.002122474388610294}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:108,{'Accuracy': 99.96603260869566, 'loss': 0.0019209189795615005}
+INFO: test epoch:108,{'Accuracy': 95.09345787262248, 'loss': 0.2738562896847725}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_108_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.00033989790244959295}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0013401680800027452}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.97679455445545, 'loss': 0.0012357539285088447}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96378311258277, 'loss': 0.001507291896133807}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:109,{'Accuracy': 99.9702785326087, 'loss': 0.0015222266796152562}
+INFO: test epoch:109,{'Accuracy': 94.8598130128094, 'loss': 0.27901674434542656}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/latest_model_109_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.004481710027903318}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0016724268625337429}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.0015745676591004576}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.97413079470199, 'loss': 0.001439400152661776}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:110,{'Accuracy': 99.97452445652173, 'loss': 0.0014022160297748126}
+INFO: test epoch:110,{'Accuracy': 95.09345787262248, 'loss': 0.27530099637806416}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_110_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.00017955740622710437}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0016048436364679433}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.002028266302515098}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93791390728477, 'loss': 0.0017924559496717823}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:111,{'Accuracy': 99.93631114130434, 'loss': 0.0018631573977630899}
+INFO: test epoch:111,{'Accuracy': 94.8598130128094, 'loss': 0.2814594767987728}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_111_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0005569981876760721}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0017196058306224442}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.001469826108071778}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96895695364239, 'loss': 0.0014400726914446684}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:112,{'Accuracy': 99.96603260869566, 'loss': 0.001428105957055105}
+INFO: test epoch:112,{'Accuracy': 95.09345787262248, 'loss': 0.2598152682185173}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_112_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0002680813195183873}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0018430992747787112}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.002297222243790805}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.0018823225173217612}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9710    0.9435    0.9571       248
+     smoking     0.9251    0.9611    0.9428       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9480    0.9523    0.9499       428
+weighted avg     0.9517    0.9509    0.9511       428
+
+INFO: train epoch:113,{'Accuracy': 99.95754076086956, 'loss': 0.001787116227462874}
+INFO: test epoch:113,{'Accuracy': 95.09345787262248, 'loss': 0.26243877597153187}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_113_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0004787337384186685}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95404411764706, 'loss': 0.0012431335338738327}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95358910891089, 'loss': 0.0015106802093214355}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0014081719519461763}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:114,{'Accuracy': 99.96603260869566, 'loss': 0.0013690310079255141}
+INFO: test epoch:114,{'Accuracy': 94.8598130128094, 'loss': 0.2676482032984495}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_114_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.00017217730055563152}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.001678410928077795}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0016843268271313177}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.0017849789246310024}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:115,{'Accuracy': 99.95329483695652, 'loss': 0.0018760927378420804}
+INFO: test epoch:115,{'Accuracy': 94.8598130128094, 'loss': 0.2732165977358818}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_115_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.00023671681992709637}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0020275627984494135}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96132425742574, 'loss': 0.0016487933054023496}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96895695364239, 'loss': 0.0014568238866739809}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9748    0.9355    0.9547       248
+     smoking     0.9158    0.9667    0.9405       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9453    0.9511    0.9476       428
+weighted avg     0.9500    0.9486    0.9488       428
+
+INFO: train epoch:116,{'Accuracy': 99.97452445652173, 'loss': 0.001376942037179264}
+INFO: test epoch:116,{'Accuracy': 94.8598130128094, 'loss': 0.27477994561195374}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_116_94.8598.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.006257479079067707}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.96936274509804, 'loss': 0.0016911024370118884}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.94585396039604, 'loss': 0.001956932837262261}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.0019298869066421461}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:117,{'Accuracy': 99.95329483695652, 'loss': 0.0018665723518611428}
+INFO: test epoch:117,{'Accuracy': 95.09345787262248, 'loss': 0.26985275745391846}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_117_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.0004045039531774819}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.87745098039215, 'loss': 0.00281431136924463}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.92264851485149, 'loss': 0.0020659101291589607}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.94826158940397, 'loss': 0.0017308472828794616}}
+INFO: 
+Acc:95.0935
+              precision    recall  f1-score   support
+
+  notsmoking     0.9749    0.9395    0.9569       248
+     smoking     0.9206    0.9667    0.9431       180
+
+    accuracy                         0.9509       428
+   macro avg     0.9478    0.9531    0.9500       428
+weighted avg     0.9521    0.9509    0.9511       428
+
+INFO: train epoch:118,{'Accuracy': 99.9320652173913, 'loss': 0.002063460979906781}
+INFO: test epoch:118,{'Accuracy': 95.09345787262248, 'loss': 0.2713579908013344}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_118_95.0935.pth
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 100.0, 'loss': 0.00020499042875599116}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.93872549019608, 'loss': 0.0016492432392517325}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.9690594059406, 'loss': 0.0014471256796277526}}
+INFO: {'lr': 1.0000000000000003e-05, 'train': {'Accuracy': 99.95860927152317, 'loss': 0.001636737300640447}}
+INFO: 
+Acc:94.8598
+              precision    recall  f1-score   support
+
+  notsmoking     0.9708    0.9395    0.9549       248
+     smoking     0.9202    0.9611    0.9402       180
+
+    accuracy                         0.9486       428
+   macro avg     0.9455    0.9503    0.9476       428
+weighted avg     0.9495    0.9486    0.9487       428
+
+INFO: train epoch:119,{'Accuracy': 99.95329483695652, 'loss': 0.0018670317381886139}
+INFO: test epoch:119,{'Accuracy': 94.8598130128094, 'loss': 0.26955598033964634}
+INFO: save model:work_space/mobilenet_v2_1.0_224_224_CrossEntropyLoss_20230629161618/model/model_119_94.8598.pth
